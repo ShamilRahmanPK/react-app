@@ -1,0 +1,96 @@
+.avatar {
+  vertical-align: middle;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border-width: 5px;
+  border-color: gray;
+  border-style: outset;
+}
+
+.login-page-container {
+  width: 100wh;
+  height: 100vh;
+}
+
+.log-fields {
+  background-image: linear-gradient(#0f0c29, #302b63);
+  box-shadow: 7.1px 14.2px 14.2px hsl(0deg 0% 0% / 0.28);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 24px;
+  display: flex;
+  width: 400px;
+  height: 500px;
+  flex-direction: column;
+}
+
+.login-txt {
+  font-family: Poppins, sans-serif;
+  font-weight: 800;
+  color: antiquewhite;
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 70px;
+}
+
+.email-feild {
+  background-color: EEEEEE;
+  border-radius: 10px;
+  width: 250px;
+  height: 25px;
+  position: relative;
+  margin-bottom: 15px;
+  margin-left: 70px;
+}
+
+.pass-feild {
+  background-color: EEEEEE;
+  border-radius: 10px;
+  width: 250px;
+  height: 25px;
+  position: relative;
+  margin-bottom: 20px;
+  margin-left: 70px;
+}
+
+.btn-cont {
+  width: 100%;
+  height: 200px;
+  margin-left: 90px;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-around;
+}
+
+.sign-btn {
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+  border-color:#0f0c29;
+}
+
+.login-btn {
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+  border-color:#0f0c29;
+}
+
+.fields {
+  height: 150px;
+  padding: 40px;
+}
+
+.profile-page {
+  background-color: #5F6F94;
+  height: 100vh;
+}
+
+.user-stat {
+  font-family: 'Archivo Narrow', sans-serif;
+  width: 300px;
+  margin-left: 400px;
+}
